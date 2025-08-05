@@ -59,29 +59,6 @@ Made with ❤️ by:
 - [Rishabh Garg](https://github.com/rishabhhhhhhhhhhh)
 - [Karan Singh](https://github.com/KSJanjua/UCS420)
 - [Naman Gupta](https://github.com/namanguptag)
-
-> 🔧 To make these contributors visible on the GitHub repo automatically:
->
-> 1. Add them as **collaborators** under: `Settings → Collaborators → Invite Collaborator`
-> 2. Once they accept, their contributions will show up in the **Contributors** graph.
-
----
-
-## 📂 Project Structure (Simplified)
-
-```
-Plate-Sustain/
-├── client/               # React frontend
-├── server/               # Node.js + Express backend
-├── database/             # Oracle SQL scripts: schema, procedures, triggers
-├── README.md
-└── .gitignore
-```
-
----
-
-## 📝 License
-
 This project is licensed under the [MIT License](LICENSE).
 
 ---

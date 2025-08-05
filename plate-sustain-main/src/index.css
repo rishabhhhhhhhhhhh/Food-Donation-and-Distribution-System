@@ -1,0 +1,104 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 30% 98%;
+    --foreground: 120 5% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 120 5% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 5% 15%;
+
+    --primary: 122 39% 49%;
+    --primary-foreground: 355 100% 100%;
+
+    --secondary: 84 48% 52%;
+    --secondary-foreground: 355 100% 100%;
+
+    --muted: 60 33% 84%;
+    --muted-foreground: 120 3% 45%;
+
+    --accent: 84 48% 52%;
+    --accent-foreground: 355 100% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 120 15% 85%;
+    --input: 120 15% 85%;
+    --ring: 120 39% 45%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 120 15% 12%;
+    --foreground: 60 33% 96%;
+
+    --card: 120 15% 16%;
+    --card-foreground: 60 33% 96%;
+
+    --popover: 120 15% 16%;
+    --popover-foreground: 60 33% 96%;
+
+    --primary: 122 39% 45%;
+    --primary-foreground: 355 100% 100%;
+
+    --secondary: 84 48% 45%;
+    --secondary-foreground: 355 100% 100%;
+
+    --muted: 120 15% 25%;
+    --muted-foreground: 60 9% 80%;
+
+    --accent: 84 48% 45%;
+    --accent-foreground: 355 100% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 120 15% 25%;
+    --input: 120 15% 25%;
+    --ring: 122 39% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .donation-card {
+    @apply rounded-lg border p-4 shadow transition-all hover:shadow-md;
+  }
+  
+  .status-badge {
+    @apply text-sm px-2 py-1 rounded-full font-medium;
+  }
+  
+  .status-listed {
+    @apply bg-sustainPlate-status-listed/20 text-sustainPlate-status-listed;
+  }
+  
+  .status-reserved {
+    @apply bg-sustainPlate-status-reserved/20 text-sustainPlate-status-reserved;
+  }
+  
+  .status-pickedUp {
+    @apply bg-sustainPlate-status-pickedUp/20 text-sustainPlate-status-pickedUp;
+  }
+  
+  .status-delivered {
+    @apply bg-sustainPlate-status-delivered/20 text-sustainPlate-status-delivered;
+  }
+}

@@ -59,9 +59,3 @@ Made with ❤️ by:
 - [Rishabh Garg](https://github.com/rishabhhhhhhhhhhh)
 - [Karan Singh](https://github.com/KSJanjua/UCS420)
 - [Naman Gupta](https://github.com/namanguptag)
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-**Let's fight food waste, one plate at a time. ♻️**
-
